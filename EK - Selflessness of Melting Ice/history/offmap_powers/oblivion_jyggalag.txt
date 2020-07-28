@@ -1,0 +1,5 @@
+1.1.1 = {
+	holder = 350005
+	status = oblivion_cataclysm
+	policy = oblivion_isolationist
+}
