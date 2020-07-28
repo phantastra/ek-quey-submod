@@ -1,0 +1,242 @@
+#Keptu
+p_qkynareth = {
+	religious = yes
+	monthly_character_piety = 0.1
+
+	health = 2
+	tribal_opinion = 3
+	levy_reinforce_rate = 5
+
+	opposites = {
+		p_qakatosh
+		p_qmara
+		p_qarkay
+		p_qmorihaus
+		p_qwater
+	}
+
+	keptu_religion_opinion = 3
+	customizer = no
+}
+p_qakatosh = {
+	religious = yes
+	monthly_character_piety = 0.1
+
+	martial = 2
+	intrigue = -1
+	ai_honor = 4
+	religion_flex = -2
+
+	opposites = {
+		p_qkynareth
+		p_qmara
+		p_qarkay
+		p_qmorihaus
+		p_qwater
+	}
+
+	keptu_religion_opinion = 3
+	customizer = no
+}
+p_qmara = {
+	religious = yes
+	monthly_character_piety = 0.1
+
+	dynasty_opinion = 2
+	spouse_opinion = 3
+	stewardship = 4
+	fertility = 5
+	twin_opinion = 10
+
+	opposites = {
+		p_qkynareth
+		p_qakatosh
+		p_qarkay
+		p_qmorihaus
+		p_qwater
+	}
+
+	keptu_religion_opinion = 3
+	customizer = no
+}
+p_qarkay = {
+	religious = yes
+	monthly_character_piety = 0.1
+
+	health = -1
+	diplomacy = -1
+	stewardship = 2
+	fertility = -3
+	ai_zeal = 2
+	intrigue = 1
+
+	opposites = {
+		p_qkynareth
+		p_qakatosh
+		p_qmara
+		p_qmorihaus
+		p_qwater
+	}
+
+	keptu_religion_opinion = 3
+	customizer = no
+}
+p_qmorihaus = {
+	religious = yes
+	monthly_character_piety = 0.2
+
+	health = 3
+	command_modifier = {
+		defence = 3
+		retreat = -3
+		centre = 2
+	}
+
+	opposites = {
+		p_qkynareth
+		p_qakatosh
+		p_qmara
+		p_qarkay
+		p_qwater
+	}
+
+	keptu_religion_opinion = 3
+	customizer = no
+}
+p_qwater = {
+	religious = yes
+	monthly_character_piety = 0.1
+	monthly_character_prestige = 0.1
+	#Oua offmap currency = 2
+
+	opposites = {
+		p_qmorihaus
+		p_qmara
+		p_qkynareth
+		p_qarkay
+		p_qakatosh
+	}
+
+	keptu_religion_opinion = 3
+	island_velothi_opinion = 2
+	customizer = no
+}
+
+#Chimer
+p_azura = {
+	learning = 1
+	monthly_character_piety = 0.1
+	
+	religious = yes #Removes trait on religion change.
+	
+	opposites = {
+		p_boethiah
+		p_mephala
+		p_nerevar
+		p_stvivec
+		p_stsotha
+		p_stalmalexia
+		p_veloth
+		p_sul
+		p_cwater
+	}
+	customizer = no
+	
+	daedra_azura_opinion = 5
+	nerevarine_opinion = 3
+	reclamationist_opinion = 3
+	island_velothi_opinion = 3
+}
+p_boethiah = {
+	martial = 1
+	combat_rating = 4
+	monthly_character_piety = 0.1
+	
+	religious = yes #Removes trait on religion change.
+	
+	opposites = {
+		p_azura
+		p_mephala
+		p_nerevar
+		p_stvivec
+		p_stsotha
+		p_stalmalexia
+		p_veloth
+		p_sul
+		p_cwater
+	}
+	customizer = no
+	
+	daedra_boethiah_opinion = 5
+	nerevarine_opinion = 3
+	reclamationist_opinion = 3
+	island_velothi_opinion = 3
+}
+p_mephala = {
+	intrigue = 2
+	diplomacy = -1
+	plot_power_modifier = 0.05
+	monthly_character_piety = 0.1
+	
+	religious = yes #Removes trait on religion change.
+	
+	opposites = {
+		p_azura
+		p_boethiah
+		p_nerevar
+		p_stvivec
+		p_stsotha
+		p_stalmalexia
+		p_veloth
+		p_sul
+		p_cwater
+	}
+	customizer = no
+	
+	daedra_mephala_opinion = 5
+	nerevarine_opinion = 3
+	reclamationist_opinion = 3
+	island_velothi_opinion = 3
+}
+p_veloth = {
+	command_modifier = {
+		speed = 0.05
+	}
+	same_religion_opinion = 10
+	monthly_character_piety = 0.1
+	
+	religious = yes #Removes trait on religion change.
+	
+	opposites = {
+		p_azura
+		p_boethiah
+		p_mephala
+		p_sul
+		p_nerevar
+		p_cwater
+	}
+	customizer = no
+	
+	nerevarine_opinion = 3
+	almsivi_old_velothi_opinion = 3
+	island_velothi_opinion = 4
+}
+p_cwater = {	
+	religious = yes
+	monthly_character_piety = 0.1
+	monthly_character_prestige = 0.1
+	#Oua offmap currency = 2
+
+	opposites = {
+		p_azura
+		p_boethiah
+		p_mephala
+		p_sul
+		p_nerevar
+		p_veloth
+	}
+
+	keptu_religion_opinion = 2
+	island_velothi_opinion = 3
+	customizer = no
+}

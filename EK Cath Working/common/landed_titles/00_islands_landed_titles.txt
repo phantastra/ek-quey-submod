@@ -1,0 +1,154 @@
+c_cathnoquey = { #Quey
+	color={ 255 100 100 }
+	color2={ 255 255 255 }
+
+	holy_site = keptu_religion
+	holy_site = island_velothi
+	
+	b_cathnoquey = {}
+	b_sassari = {}
+	b_arbus = {}
+	b_parga = {}
+	b_stratos = {}
+	b_thiva = {}
+	b_mandra = {}
+}
+c_necrom = {
+	color={ 90 65 55 }
+	color2={ 255 255 255 }
+
+	holy_site = almsivi
+	holy_site = reclamationist
+    holy_site = island_velothi				
+				
+	b_necrom = {
+
+		short_name = yes
+	}
+	b_aldaheru = {}
+	b_selamderen = {}
+	b_serron = {}
+	b_androma = {}
+	b_olaran = {}
+	b_arathin = {}
+}
+c_uradas = {
+	color={ 125 110 50 }
+	color2={ 255 255 255 }
+
+    holy_site = island_velothi
+
+	b_uradas = {}
+	b_domisan = {}
+	b_sedave = {}
+	b_telveris = {}
+	b_bradas = {}
+	b_orilian = {}
+	b_orenthias = {}
+}
+c_darvon = {
+	color={ 140 100 40 }
+	color2={ 255 255 255 }
+	
+    holy_site = island_velothi
+
+	b_darvon = {}
+	b_shad_astula = {}
+	b_avayan = {}
+	b_hairar = {}
+	b_hlaodin = {}
+	b_llervi = {}
+	b_minerva = {}
+}
+c_velothis = {
+	color={ 100 100 80 }
+	color2={ 255 255 255 }
+
+	holy_site = almsivi
+	holy_site = reclamationist
+    holy_site = island_velothi
+				
+	b_velothis = {}
+	b_iliath = {}
+	b_telsaharis = {}
+	b_zagros = {}
+	b_aldcasus = {}
+	b_edoruhn = {}
+	b_nisibis = {}
+}
+c_morthal = {
+	color={ 90 180 230 }
+	color2={ 255 255 255 }
+
+    holy_site = keptu_religion
+				
+	b_morthal = {}
+	b_kjenstag = {}
+	b_morvath = {}
+	b_kjanenheim = {}
+	b_hradec = {}
+	b_heilbronn = {}
+	b_mulheim = {}
+}
+c_dragongate = {
+	color={ 173 0 94 }
+	color2={ 255 255 255 }
+
+    quey = "Skyreach"
+
+    holy_site = keptu_religion
+	
+	b_dragongate = {
+        quey = "Skyreach"
+    }
+	b_lauma = {}
+	b_tacast = {}
+	b_arhoi = {}
+	b_sirhan = {}
+	b_seekersarchive = {
+		short_name = yes
+	}
+	b_skyreach = {
+        quey = "Old Skyreach"
+    }
+}
+c_haran = {
+	color={ 69 111 203 }
+	color2={ 255 255 255 }
+	
+    quey = "Bloodroot"
+
+    holy_site = keptu_religion
+
+	b_haran = {}
+	b_sharrukim = {}
+	b_buduq = {}
+	b_meroe = {}
+	b_bloodroot = {}
+	b_haran_6 = {}
+	b_haran_7 = {}
+}
+c_falkreath = {
+	color={ 100 100 240 }
+	color2={ 255 255 255 }
+	
+	orsimer = "Falcrenth"
+	reachmen = "Falcrenth"
+
+    holy_site = keptu_religion
+	
+	b_falkreath = {
+		orsimer = "Falcrenth"
+		reachmen = "Falcrenth"
+	}
+	b_bastion = {}
+	b_ancientsascent = {}
+	b_shriekwind = {}
+	b_crackedtuskkeep = {
+		used_for_dynasty_names = no
+	}
+	b_falkreathwatch = {
+		used_for_dynasty_names = no
+	}
+	b_bonechill = {}
+}

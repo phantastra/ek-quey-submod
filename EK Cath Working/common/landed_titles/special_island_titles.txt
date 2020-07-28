@@ -1,0 +1,23 @@
+d_velotta = {
+	color = {0.77 0.68 0.72}
+	religion = island_velothi
+	culture = chimer
+	landless = yes
+	primary = yes
+	can_be_usurped = no
+	title = VELOTTA
+	
+	controls_religion = island_velothi
+}
+
+d_chief_protector = {
+	color = {0.78 1.00 0.93}
+	religion = keptu_religion
+	culture = quey
+	landless = yes
+	primary = yes
+	can_be_usurped = no
+	title = CHIEF_PROTECTOR
+	
+	controls_religion = keptu_religion
+}

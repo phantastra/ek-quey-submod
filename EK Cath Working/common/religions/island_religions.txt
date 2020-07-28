@@ -1,0 +1,122 @@
+tribunal = {
+    island_velothi = {
+		graphical_culture = muslimgfx
+		
+		piety_name = FAVOUR
+		
+		high_god_name = GOD_EDRI
+		scripture_name = THE_LEGENDS
+		
+		god_names = {
+			GOD_BOETHIAH GOD_MEPHALA GOD_AZURA GOD_THE_ANCESTORS GOD_ST_VELOTH GOD_KYNARETH_ISLAND GOD_MELTING_WATER_CHIMER GOD_THE_MORI GOD_MORA GOD_VELOTTA
+		}
+		evil_god_names = {
+			GOD_MEHRUNES_DAGON_ISLAND GOD_SHEOGORATH_ISLAND GOD_MOLAG_BAL_ISLAND GOD_MALACATH_ISLAND GOD_THE_IDRI GOD_SHEZZA
+		}
+		
+		icon = 13
+		heresy_icon = 14
+		color = { 0.77 0.68 0.72 }
+
+		feminist = yes
+		allow_looting = no
+		allow_rivermovement = yes
+		can_call_crusade = no
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = no
+		priests_can_marry = no
+		female_temple_holders = yes
+		can_retire_to_monastery = yes
+		priests_can_inherit = yes
+		short_reign_opinion_year_mult = 1 # The default is 2
+		pacifist = yes
+		seafarer = yes
+		divine_blood = yes
+		peace_piety_gain = 2.0
+		raised_vassal_opinion_loss = yes
+		hard_to_convert = yes
+		attacking_same_religion_piety_loss = yes
+		aggression = 0.5
+
+		intermarry = almsivi
+		intermarry = nerevarine
+		intermarry = reclamationist
+		intermarry = daedra_mephala
+		intermarry = daedra_boethiah
+		intermarry = daedra_azura
+		
+		bs_marriage = yes
+		pc_marriage = no
+		psc_marriage = yes
+		cousin_marriage = yes
+
+		has_heir_designation = yes
+	}
+}
+human_pantheon = {
+	keptu_religion = {
+		graphical_culture = westerngfx
+
+		icon = 4
+		heresy_icon = 3
+		color = { 0.78 1.00 0.93 }
+
+		crusade_name = "CRUSADE"
+		scripture_name = THE_DUTY
+		
+		piety_name = FAVOUR
+
+		priest_title = SHIELD
+		
+		high_god_name = GOD_THE_DIVINES
+		
+		god_names = {
+			GOD_THE_DIVINES GOD_THE_FOUR GOD_THE_GODS GOD_THE_AEDRA GOD_KYNARETH_KEPTU GOD_AKATOSH_KEPTU GOD_MORIHAUS GOD_MARA_KEPTU GOD_ARKAY_KEPTU GOD_THE_STARS GOD_MELTING_WATER_KEPTU
+		}
+		
+		evil_god_names = {
+			DAEDRA DEMONS DAEDRIC_PRINCES
+		}
+		
+		#autocephaly = yes
+		allow_rivermovement = yes
+		allow_looting = yes
+		can_call_crusade = no
+		can_excommunicate = no
+		can_grant_divorce = yes
+		can_grant_claim = yes
+		priests_can_marry = no
+		#investiture = yes
+		female_temple_holders = yes
+		can_grant_invasion_cb = invasion
+		can_retire_to_monastery = yes
+		priests_can_inherit = yes
+		short_reign_opinion_year_mult = 5 # The default is 2
+		feminist = yes      # Nullifies the negative opinion modifier that vassals normally get if ruler is female or has female heir
+		aggression = 0.5
+		pacifist = yes
+		defensive_attrition = yes
+		raised_vassal_opinion_loss = no
+		join_crusade_if_bordering_hostile = yes
+		rel_head_defense = yes
+		seafarer = yes
+		hard_to_convert = yes
+		
+		intermarry = animism
+		intermarry = anuic_skaal
+		intermarry = old_gods
+		intermarry = almsivi
+		intermarry = reclamationist
+		intermarry = nine_divines
+		intermarry = green_pact
+		intermarry = auri-el
+		intermarry = satakal
+		intermarry = alikr
+		intermarry = maruhkati
+		
+		#religious_clothing_head = 9
+		#religious_clothing_priest = 9
+		has_heir_designation = yes
+	}
+}

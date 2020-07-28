@@ -1,0 +1,2167 @@
+# quey: 132000-134999
+
+###Cathnoquey
+
+#Deser Dynasty (30000): 132000 - 132009 (r.i.p.)
+132000 = {
+	name = "Omon"						#Count of Kamery
+	dynasty = 30000
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3297.1.1 = { birth = yes }
+	3351.1.1 = { death = yes }
+}
+132001 = {
+	name = "Jalgyr"						#Count of Kamery - Interregnum
+	dynasty = 30000
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132000
+	
+	3329.1.1 = { birth = yes }
+	3390.1.1 = { add_trait = ill }
+	3392.1.1 = { death = yes }
+}
+132002 = {
+	name = "Gharec"
+	dynasty = 30000
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132001
+	
+	3352.1.1 = { birth = yes }
+	3376.1.1 = { add_spouse = 132803 }
+	3391.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+			killer = 132004
+		}
+	}
+}
+132003 = {
+	name = "Azmia"
+	dynasty = 30000
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132002
+	mother = 132803
+	female = yes
+	
+	3382.1.1 = { birth = yes }
+	3400.1.1 = { add_spouse = 132010 }
+	3456.1.1 = { death = yes }
+}
+	
+132004 = {
+	name = "Zyjem"						#Count of Kamery
+	dynasty = 30000
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132001
+	
+	3358.1.1 = { birth = yes }
+	3367.1.1 = { add_trait = envious }
+	3416.1.1 = { death = yes }
+}
+132005 = {
+	name = "Shaid"						#Count of Kamery
+	dynasty = 30000
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132004
+	
+	3381.1.1 = { birth = yes }
+	3450.1.1 = { death = yes }
+}
+132006 = {
+	name = "Caized"						#Count of Kamery
+	dynasty = 30000
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132005
+	
+	3403.1.1 = { birth = yes }
+	3459.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 132805
+		}
+	}
+}
+132007 = {
+	name = "Mazul"
+	dynasty = 30000
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132006
+	
+	3424.1.1 = { birth = yes }
+	3458.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 132809
+		}
+	}
+}
+132008 = {
+	name = "Surec"
+	dynasty = 30000
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	add_trait = twin
+	father = 132006
+	
+	3441.1.1 = { birth = yes }
+	3459.1.1 = {
+		death = {
+			death_reason = death_execution
+			killer = 132805
+		}
+	}
+}
+132009 = {
+	name = "Jalmir"
+	dynasty = 30000
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	add_trait = twin
+	father = 132006
+	female = yes
+	
+	3441.1.1 = { birth = yes }
+	3459.1.1 = { add_spouse = 132012 }
+	3503.1.1 = { death = yes }
+}
+
+# Derad Dynasty (30034): 132010 - 132099
+132010 = {
+	name = "Yazed"
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3369.1.1 = { birth = yes }
+	3400.1.1 = { add_spouse = 132003 }
+	3433.1.1 = { death = yes }
+}
+132011 = {
+	name = "Daimon"
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132010
+	mother = 132003
+	
+	3407.1.1 = { birth = yes }
+	3468.1.1 = { death = yes }
+}
+132012 = {
+	name = "Tasyd"						#Count of Kamery - Reachmen Invasion, Kamal Invasion
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132011
+	
+	3431.1.1 = { birth = yes }
+	3459.1.1 = { add_spouse = 132009 }
+	3501.1.1 = { death = yes }
+}
+132013 = {
+	name = "Hosyd"						#Count of Kamery - Three Banners
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132012
+	
+	3462.1.1 = { birth = yes }
+	3523.1.1 = { death = yes }
+}
+132014 = {
+	name = "Gorek"						#Count of Kamery
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132013
+	
+	3482.1.1 = { birth = yes }
+	3548.1.1 = { death = yes }
+}
+
+132015 = {
+	name = Korec
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132014
+	3505.1.1 = { birth = yes }
+	3577.1.1 = { death = yes }
+}
+132016 = {
+	name = Mashrak
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132015
+	3545.1.1 = { birth = yes }
+	3621.1.1 = { death = yes }
+}
+132017 = {
+	name = Borez
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132016
+	3576.1.1 = { birth = yes }
+	3647.1.1 = { death = yes }
+}
+132018 = {
+	name = Hamon
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132017
+	3599.1.1 = { birth = yes }
+	3680.1.1 = { death = yes }
+}
+132019 = {
+	name = Shalmon
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132018
+	3633.1.1 = { birth = yes }
+	3717.1.1 = { death = yes }
+}
+132020 = {
+	name = Tzalmon
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132019
+	3667.1.1 = { birth = yes }
+	3746.1.1 = { death = yes }
+}
+132021 = {
+	name = Hammon
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132020
+	3694.1.1 = { birth = yes }
+	3761.1.1 = { death = yes }
+}
+132022 = {
+	name = Jemon
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132021
+	3732.1.1 = { birth = yes }
+	3804.1.1 = { death = yes }
+}
+132023 = {
+	name = Lasul
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132022
+	3770.1.1 = { birth = yes }
+	3846.1.1 = { death = yes }
+}
+132024 = {
+	name = Bhirek
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132023
+	3804.1.1 = { birth = yes }
+	3873.1.1 = { death = yes }
+}
+132025 = {
+	name = Ximon
+	dynasty = 30034
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132024
+	3838.1.1 = { birth = yes }
+	3905.1.1 = { death = yes }
+}
+
+#Quey Mage Guild: 132100 - 132199
+132100 = {
+	name = "Haled"						#Arch-Mage of Quey Guild
+	
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3200.1.1 = { birth = yes }
+	3260.1.1 = { death = yes }
+}
+132101 = {
+	name = "Yazed"						#Arch-Mage of Quey Guild
+	
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3240.1.1 = { birth = yes }
+	3300.1.1 = { death = yes }
+}
+132102 = {
+	name = "Cairmon"						#Arch-Mage of Quey Guild
+	
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3280.1.1 = { birth = yes }
+	3340.1.1 = { death = yes }
+}
+132103 = {
+	name = "Kolgyr"						#Arch-Mage of Quey Guild - Interregnum
+	
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3320.1.1 = { birth = yes }
+	3380.1.1 = { death = yes }
+}
+132104 = {
+	name = "Vishor"						#Arch-Mage of Quey Guild
+	
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3360.1.1 = { birth = yes }
+	3420.1.1 = { death = yes }
+}
+132105 = {
+	name = "Surec"						#Arch-Mage of Quey Guild
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3400.1.1 = { birth = yes }
+	3460.1.1 = { death = yes }
+}
+132106 = {
+	name = "Kalem"						#Arch-Mage of Quey Guild - Reachmen, Kamal Invasion
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3433.1.1 = { birth = yes }
+	3487.1.1 = { death = yes }
+}
+132107 = {
+	name = "Dusherec"						#Arch-Mage of Quey Guild - Three Banners
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3451.1.1 = { birth = yes }
+	3529.1.1 = { death = yes }
+}
+
+132108 = {
+	name = Amia
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	female = yes
+	3505.1.1 = { birth = yes }
+	3583.1.1 = { death = yes }
+}
+132109 = {
+	name = Haled
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	3550.1.1 = { birth = yes }
+	3624.1.1 = { death = yes }
+}
+132110 = {
+	name = Bhuzmon
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	3592.1.1 = { birth = yes }
+	3665.1.1 = { death = yes }
+}
+132111 = {
+	name = Tasyd
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	3634.1.1 = { birth = yes }
+	3704.1.1 = { death = yes }
+}
+132112 = {
+	name = Rahmon
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	3673.1.1 = { birth = yes }
+	3743.1.1 = { death = yes }
+}
+132113 = {
+	name = Silgyr
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	3713.1.1 = { birth = yes }
+	3781.1.1 = { death = yes }
+}
+132114 = {
+	name = Ardid
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	3750.1.1 = { birth = yes }
+	3819.1.1 = { death = yes }
+}
+132115 = {
+	name = Ardid
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	3787.1.1 = { birth = yes }
+	3859.1.1 = { death = yes }
+}
+132116 = {
+	name = Ximon
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	3828.1.1 = { birth = yes }
+	3898.1.1 = { death = yes }
+}
+132117 = {
+	name = Bezmon
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	3866.1.1 = { birth = yes }
+	3938.1.1 = { death = yes }
+}
+132118 = {
+	name = Eannia
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	female = yes
+	3907.1.1 = { birth = yes }
+	3978.1.1 = { death = yes }
+}
+
+# Madar Dynasty (30001): 132200 - 132399
+132200 = {
+	name = "Carlmon"						#Guild Master of the Republic of Quey
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3295.1.1 = { birth = yes }
+	3356.1.1 = { death = yes }
+}
+132201 = {
+	name = "Gorek"
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132200
+	
+	3317.1.1 = { birth = yes }
+	3374.1.1 = { death = yes }
+}
+132202 = {
+	name = "Romen"						#Guild Master of the Republic of Quey
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132201
+	
+	3341.1.1 = { birth = yes }
+	3400.1.1 = { death = yes }
+}
+132203 = {
+	name = "Shalmon"						#Guild Master of the Republic of Quey
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132202
+	
+	3360.1.1 = { birth = yes }
+	3428.1.1 = { death = yes }
+}
+132204 = {
+	name = "Zaman"
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132202
+	
+	3364.1.1 = { birth = yes }
+	3427.1.1 = { death = yes }
+}
+132205 = {
+	name = "Dalapey"
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132203
+	female = yes
+	
+	3386.1.1 = { birth = yes }
+	3404.1.1 = { add_spouse = 133003 }
+	3456.1.1 = { death = yes }
+}
+132206 = {
+	name = "Vishor"
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132204
+	
+	3389.1.1 = { birth = yes }
+	3451.1.1 = { death = yes }
+}
+132207 = {
+	name = "Hungir"
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132206
+	
+	3411.1.1 = { birth = yes }
+	3478.1.1 = { death = yes }
+}
+132208 = {
+	name = "Algyr"
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132207
+	
+	3432.1.1 = { birth = yes }
+	3482.1.1 = { death = yes }
+}
+132209 = {
+	name = "Furgyr"						#Guild Master of the Republic of Quey
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132208
+	
+	3455.1.1 = { birth = yes }
+	3537.1.1 = { death = yes }
+}
+132210 = {
+	name = "Tayir"
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132208
+	female = yes
+	
+	3459.1.1 = { birth = yes }
+	3477.1.1 = { add_spouse = 132609 }
+	3534.1.1 = { death = yes }
+}
+132211 = {
+	name = "Aimon"
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132209
+	
+	3480.1.1 = { birth = yes }
+	3544.1.1 = { death = yes }
+}
+132212 = {
+	name = "Shurgir"
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132211
+	
+	3507.1.1 = { birth = yes }
+	3588.1.1 = { death = yes }
+}
+
+132213 = {
+	name = Ximon
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132212
+	3527.1.1 = { birth = yes }
+	3600.1.1 = { death = yes }
+}
+132214 = {
+	name = Zaded
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132213
+	3556.1.1 = { birth = yes }
+	3635.1.1 = { death = yes }
+}
+132215 = {
+	name = Dujem
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132214
+	3577.1.1 = { birth = yes }
+	3651.1.1 = { death = yes }
+}
+132216 = {
+	name = Raholor
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132215
+	3600.1.1 = { birth = yes }
+	3670.1.1 = { death = yes }
+}
+132217 = {
+	name = Gaggyr
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132216
+	3629.1.1 = { birth = yes }
+	3703.1.1 = { death = yes }
+}
+132218 = {
+	name = Mured
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132217
+	3660.1.1 = { birth = yes }
+	3732.1.1 = { death = yes }
+}
+132219 = {
+	name = Yadid
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132218
+	3682.1.1 = { birth = yes }
+	3750.1.1 = { death = yes }
+}
+132220 = {
+	name = Raholor
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132219
+	3706.1.1 = { birth = yes }
+	3772.1.1 = { death = yes }
+}
+132221 = {
+	name = Bholmon
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132220
+	3746.1.1 = { birth = yes }
+	3814.1.1 = { death = yes }
+}
+132222 = {
+	name = Hakkyr
+	dynasty = 30001
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132221
+	3776.1.1 = { birth = yes }
+	3853.1.1 = { death = yes }
+}
+
+# Birser Dynasty (30002): 132400 - 132599
+132400 = {
+	name = "Jemogir"
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3295.1.1 = { birth = yes }
+	3355.1.1 = { death = yes }
+}
+132401 = {
+	name = "Algyr"						#Guild Master of the Republic of Quey
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132400
+	
+	3322.1.1 = { birth = yes }
+	3381.1.1 = { death = yes }
+}
+132402 = {
+	name = "Shagyr"						#Guild Master of the Republic of Quey
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132401
+	
+	3345.1.1 = { birth = yes }
+	3413.1.1 = { death = yes }
+}
+132403 = {
+	name = "Ozraf"
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132402
+	
+	3366.1.1 = { birth = yes }
+	3440.1.1 = { death = yes }
+}
+132404 = {
+	name = "Mured"
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132403
+	
+	3387.1.1 = { birth = yes }
+	3449.1.1 = { death = yes }
+}
+132405 = {
+	name = "Jamon"						#Guild Master of the Republic of Quey
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132404
+	
+	3418.1.1 = { birth = yes }
+	3484.1.1 = { death = yes }
+}
+132406 = {
+	name = "Rahalir"
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132404
+	female = yes
+	
+	3426.1.1 = { birth = yes }
+	3445.1.1 = { add_spouse = 132807 }
+	3497.1.1 = { death = yes }
+}
+132407 = {
+	name = "Dozgyr"
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132405
+	
+	3442.1.1 = { birth = yes }
+	3463.1.1 = { add_spouse = 132608 }
+	3505.1.1 = { death = yes }
+}
+132408 = {
+	name = "Agmon"
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132407
+	mother = 132608
+	
+	3475.1.1 = { birth = yes }
+	3542.1.1 = { death = yes }
+}
+132409 = {
+	name = "Dozgyr"
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132408
+	
+	3496.1.1 = { birth = yes }
+	3554.1.1 = { death = yes }
+}
+
+132410 = {
+	name = Kashra
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132409
+	3521.1.1 = { birth = yes }
+	3599.1.1 = { death = yes }
+}
+132411 = {
+	name = Bezmon
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132410
+	3547.1.1 = { birth = yes }
+	3623.1.1 = { death = yes }
+}
+132412 = {
+	name = Kaemon
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132411
+	3578.1.1 = { birth = yes }
+	3652.1.1 = { death = yes }
+}
+132413 = {
+	name = Chorek
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132412
+	3609.1.1 = { birth = yes }
+	3681.1.1 = { death = yes }
+}
+132414 = {
+	name = Shaddid
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132413
+	3632.1.1 = { birth = yes }
+	3698.1.1 = { death = yes }
+}
+132415 = {
+	name = Gamon
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132414
+	3672.1.1 = { birth = yes }
+	3738.1.1 = { death = yes }
+}
+132416 = {
+	name = Barzmon
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132415
+	3707.1.1 = { birth = yes }
+	3772.1.1 = { death = yes }
+}
+132417 = {
+	name = Khorez
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132416
+	3740.1.1 = { birth = yes }
+	3808.1.1 = { death = yes }
+}
+132418 = {
+	name = Gheysyd
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132417
+	3766.1.1 = { birth = yes }
+	3838.1.1 = { death = yes }
+}
+132419 = {
+	name = Kolgyr
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132418
+	3792.1.1 = { birth = yes }
+	3859.1.1 = { death = yes }
+}
+132420 = {
+	name = Airek
+	dynasty = 30002
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132419
+	3820.1.1 = { birth = yes }
+	3888.1.1 = { death = yes }
+}
+
+# Solmor Dynasty (30003): 132600 - 132799
+132600 = {
+	name = "Ghamek"
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3295.1.1 = { birth = yes }
+	3356.1.1 = { death = yes }
+}
+132601 = {
+	name = "Shagyr"						#Guild Master of the Republic of Quey
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132600
+	
+	3322.1.1 = { birth = yes }
+	3384.1.1 = { death = yes }
+}
+132602 = {
+	name = "Yaragir"
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132601
+	
+	3346.1.1 = { birth = yes }
+	3411.1.1 = { death = yes }
+}
+132603 = {
+	name = "Camia"
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132601
+	female = yes
+	
+	3349.1.1 = { birth = yes }
+	3368.1.1 = { add_spouse = 133203 }
+	3421.1.1 = { death = yes }
+}
+132604 = {
+	name = "Mashrak"						#Guild Master of the Republic of Quey
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132602
+	
+	3374.1.1 = { birth = yes }
+	3440.1.1 = { death = yes }
+}
+132605 = {
+	name = "Raized"
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132604
+	
+	3399.1.1 = { birth = yes }
+	3468.1.1 = { death = yes }
+}
+132606 = {
+	name = "Alem"
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132605
+	
+	3423.1.1 = { birth = yes }
+	3483.1.1 = { death = yes }
+}
+132607 = {
+	name = "Atalir"
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132606
+	female = yes
+	
+	3442.1.1 = { birth = yes }
+	3460.1.1 = { add_spouse = 132809 }
+	3515.1.1 = { death = yes }
+}
+132608 = {
+	name = "Fannia"
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132606
+	female = yes
+	
+	3445.1.1 = { birth = yes }
+	3463.1.1 = { add_spouse = 132407 }
+	3522.1.1 = { death = yes }
+}
+132609 = {
+	name = "Kylmon"
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132606
+	
+	3452.1.1 = { birth = yes }
+	3477.1.1 = { add_spouse = 132210 }
+	3520.1.1 = { death = yes }
+}
+132610 = {
+	name = "Airek"
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132609
+	mother = 132210
+	
+	3478.1.1 = { birth = yes }
+	3541.1.1 = { death = yes }
+}
+132611 = {
+	name = "Shanat"
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132610
+	
+	3510.1.1 = { birth = yes }
+	3577.1.1 = { death = yes }
+}
+
+132612 = {
+	name = Bhazarek
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132611
+	3532.1.1 = { birth = yes }
+	3602.1.1 = { death = yes }
+}
+132613 = {
+	name = Kemon
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132612
+	3571.1.1 = { birth = yes }
+	3647.1.1 = { death = yes }
+}
+132614 = {
+	name = Ozraf
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132613
+	3597.1.1 = { birth = yes }
+	3666.1.1 = { death = yes }
+}
+132615 = {
+	name = Zaded
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132614
+	3630.1.1 = { birth = yes }
+	3696.1.1 = { death = yes }
+}
+132616 = {
+	name = Shaded
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132615
+	3650.1.1 = { birth = yes }
+	3721.1.1 = { death = yes }
+}
+132617 = {
+	name = Bygyr
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132616
+	3675.1.1 = { birth = yes }
+	3747.1.1 = { death = yes }
+}
+132618 = {
+	name = Comon
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132617
+	3714.1.1 = { birth = yes }
+	3783.1.1 = { death = yes }
+}
+132619 = {
+	name = Rymon
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132618
+	3754.1.1 = { birth = yes }
+	3835.1.1 = { death = yes }
+}
+132620 = {
+	name = Haigyr
+	dynasty = 30003
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132619
+	3786.1.1 = { birth = yes }
+	3859.1.1 = { death = yes }
+}
+
+# Tyrash Dynasty (30004): 132800 - 132999
+132800 = {
+	name = "Bazman"						#Guild Master of the Republic of Quey
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3295.1.1 = { birth = yes }
+	3364.1.1 = { death = yes }
+}
+132801 = {
+	name = "Ahilmon"						#Guild Master of the Republic of Quey
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132800
+	
+	3331.1.1 = { birth = yes }
+	3393.1.1 = { death = yes }
+}
+132802 = {
+	name = "Ollem"
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132801
+	
+	3355.1.1 = { birth = yes }
+	3418.1.1 = { death = yes }
+}
+132803 = {
+	name = "Maelir"
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132801
+	female = yes
+	
+	3358.1.1 = { birth = yes }
+	3376.1.1 = { add_spouse = 132002 }
+	3428.1.1 = { death = yes }
+}
+132804 = {
+	name = "Yaarek"
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132802
+	
+	3377.1.1 = { birth = yes }
+	3435.1.1 = { death = yes }
+}
+132805 = {
+	name = "Zaded"						#Guild Master of the Republic of Quey
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132804
+	
+	3403.1.1 = { birth = yes }
+	3464.1.1 = { death = yes }
+}
+132806 = {
+	name = "Jarzaf"
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132804
+	
+	3406.1.1 = { birth = yes }
+	3426.1.1 = {
+		death = {
+			death_reason = death_duel
+			killer = 132006
+		}
+	}
+}
+132807 = {
+	name = "Jerak"
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132805
+	
+	3427.1.1 = { birth = yes }
+	3445.1.1 = { add_spouse = 132406 }
+	3454.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 132007
+		}
+	}
+}
+132808 = {
+	name = "Shaid"
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132805
+	
+	3428.1.1 = { birth = yes }
+	3454.1.1 = {
+		death = {
+			death_reason = death_battle
+			killer = 132007
+		}
+	}
+}
+132809 = {
+	name = "Jarzaf"						#Guild Master of the Republic of Quey
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132805
+	
+	3440.1.1 = { birth = yes }
+	3460.1.1 = { add_spouse = 132607 }
+	3512.1.1 = { death = yes }
+}
+132810 = {
+	name = "Jerak"
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132809
+	mother = 132607
+	
+	3461.1.1 = { birth = yes }
+	3481.1.1 = { add_spouse = 133210 }
+	3522.1.1 = { death = yes }
+}
+132811 = {
+	name = "Canalir"
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132809
+	mother = 132607
+	female = yes
+	
+	3466.1.1 = { birth = yes }
+	3484.1.1 = { add_spouse = 133006 }
+	3538.1.1 = { death = yes }
+}
+132812 = {
+	name = "Osaryd"
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132810
+	mother = 133210
+	
+	3490.1.1 = { birth = yes }
+	3549.1.1 = { death = yes }
+}
+
+132813 = {
+	name = Jarmon
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132812
+	3509.1.1 = { birth = yes }
+	3580.1.1 = { death = yes }
+}
+132814 = {
+	name = Falgyr
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132813
+	3539.1.1 = { birth = yes }
+	3612.1.1 = { death = yes }
+}
+132815 = {
+	name = Hetgyr
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132814
+	3570.1.1 = { birth = yes }
+	3646.1.1 = { death = yes }
+}
+132816 = {
+	name = Barzmon
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132815
+	3606.1.1 = { birth = yes }
+	3677.1.1 = { death = yes }
+}
+132817 = {
+	name = Jigir
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132816
+	3632.1.1 = { birth = yes }
+	3701.1.1 = { death = yes }
+}
+132818 = {
+	name = Galem
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132817
+	3664.1.1 = { birth = yes }
+	3734.1.1 = { death = yes }
+}
+132819 = {
+	name = Gharec
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132818
+	3687.1.1 = { birth = yes }
+	3753.1.1 = { death = yes }
+}
+132820 = {
+	name = Bhimon
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132819
+	3713.1.1 = { birth = yes }
+	3782.1.1 = { death = yes }
+}
+132821 = {
+	name = Vishor
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132820
+	3747.1.1 = { birth = yes }
+	3817.1.1 = { death = yes }
+}
+132822 = {
+	name = Shaded
+	dynasty = 30004
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 132821
+	3780.1.1 = { birth = yes }
+	3852.1.1 = { death = yes }
+}
+
+# Barrak Dynasty (30005): 133000 - 133199
+133000 = {
+	name = "Limon"						#Guild Master of the Republic of Quey
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3295.1.1 = { birth = yes }
+	3359.1.1 = { death = yes }
+}
+133001 = {
+	name = "Raholor"						#Guild Master of the Republic of Quey
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133000
+	
+	3321.1.1 = { birth = yes }
+	3388.1.1 = { death = yes }
+}
+133002 = {
+	name = "Colmon"						#Guild Master of the Republic of Quey
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133001
+	
+	3355.1.1 = { birth = yes }
+	3417.1.1 = { death = yes }
+}
+133003 = {
+	name = "Jigir"						#Guild Master of the Republic of Quey
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133002
+	
+	3382.1.1 = { birth = yes }
+	3404.1.1 = { add_spouse = 132205 }
+	3443.1.1 = { death = yes }
+}
+133004 = {
+	name = "Arlem"
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133003
+	mother = 132205
+	
+	3410.1.1 = { birth = yes }
+	3467.1.1 = { death = yes }
+}
+133005 = {
+	name = "Kashra"						#Guild Master of the Republic of Quey
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133004
+	
+	3433.1.1 = { birth = yes }
+	3496.1.1 = { death = yes }
+}
+133006 = {
+	name = "Xilir"
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133005
+	
+	3464.1.1 = { birth = yes }
+	3484.1.1 = { add_spouse = 132811 }
+	3537.1.1 = { death = yes }
+}
+133007 = {
+	name = "Khelgyr"
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133005
+	
+	3465.1.1 = { birth = yes }
+	3531.1.1 = { death = yes }
+}
+133008 = {
+	name = "Khelgyr"
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133007
+	
+	3495.1.1 = { birth = yes }
+	3565.1.1 = { death = yes }
+}
+
+133009 = {
+	name = Hairmon
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133008
+	3517.1.1 = { birth = yes }
+	3592.1.1 = { death = yes }
+}
+133010 = {
+	name = Durec
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133009
+	3545.1.1 = { birth = yes }
+	3620.1.1 = { death = yes }
+}
+133011 = {
+	name = Ghorek
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133010
+	3566.1.1 = { birth = yes }
+	3638.1.1 = { death = yes }
+}
+133012 = {
+	name = Zymon
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133011
+	3599.1.1 = { birth = yes }
+	3670.1.1 = { death = yes }
+}
+133013 = {
+	name = Gheysyd
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133012
+	3630.1.1 = { birth = yes }
+	3697.1.1 = { death = yes }
+}
+133014 = {
+	name = Yaazman
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133013
+	3657.1.1 = { birth = yes }
+	3734.1.1 = { death = yes }
+}
+133015 = {
+	name = Bishamon
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133014
+	3686.1.1 = { birth = yes }
+	3755.1.1 = { death = yes }
+}
+133016 = {
+	name = Hazagir
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133015
+	3710.1.1 = { birth = yes }
+	3782.1.1 = { death = yes }
+}
+133017 = {
+	name = Fahgyr
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133016
+	3742.1.1 = { birth = yes }
+	3818.1.1 = { death = yes }
+}
+133018 = {
+	name = Kolgyr
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133017
+	3763.1.1 = { birth = yes }
+	3835.1.1 = { death = yes }
+}
+133019 = {
+	name = Kholem
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133018
+	3794.1.1 = { birth = yes }
+	3867.1.1 = { death = yes }
+}
+133020 = {
+	name = Cymon
+	dynasty = 30005
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133019
+	3830.1.1 = { birth = yes }
+	3897.1.1 = { death = yes }
+}
+
+# Maund Dynasty (30006): 133200 - 133399
+133200 = {
+	name = "Hazagir"						#Count of Namien
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	
+	3298.1.1 = { birth = yes }
+	3365.1.1 = { death = yes }
+}
+133201 = {
+	name = "Comon"						#Count of Namien - Interregnum
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133200
+	
+	3324.1.1 = { birth = yes }
+	3390.1.1 = { death = yes }
+}
+133202 = {
+	name = "Arlem"
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133200
+	
+	3327.1.1 = { birth = yes }
+	3393.1.1 = { death = yes }
+}
+133203 = {
+	name = "Gaymon"						#Count of Namien
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133201
+	
+	3350.1.1 = { birth = yes }
+	3368.1.1 = { add_spouse = 132603 }
+	3411.1.1 = { death = yes }
+}
+133204 = {
+	name = "Surec"						#Count of Namien
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133202
+	
+	3358.1.1 = { birth = yes }
+	3416.1.1 = { death = yes }
+}
+133205 = {
+	name = "Kaemon"
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133203
+	mother = 132603
+	
+	3371.1.1 = { birth = yes }
+	3374.1.1 = {
+		death = {
+			death_reason = death_accident
+		}
+	}
+}
+133206 = {
+	name = "Shadmia"
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133203
+	mother = 132603
+	female = yes
+	
+	3392.1.1 = { birth = yes }
+	3410.1.1 = { add_spouse = 133207 }
+	3466.1.1 = { death = yes }
+}
+133207 = {
+	name = "Gon"						#Count of Namien
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133204
+	
+	3385.1.1 = { birth = yes }
+	3410.1.1 = { add_spouse = 133206 }
+	3447.1.1 = { death = yes }
+}
+133208 = {
+	name = "Bholmon"						#Count of Namien - Reachmen Invasion
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133207
+	mother = 133206
+	
+	3412.1.1 = { birth = yes }
+	3480.1.1 = { death = yes }
+}
+133209 = {
+	name = "Hymon"						#Count of Namien - Kamal Invasion
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133208
+	
+	3436.1.1 = { birth = yes }
+	3499.1.1 = { death = yes }
+}
+133210 = {
+	name = "Jaemia"
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133209
+	female = yes
+	
+	3463.1.1 = { birth = yes }
+	3481.1.1 = { add_spouse = 132810 }
+	3534.1.1 = { death = yes }
+}
+133211 = {
+	name = "Telgyr"						#Count of Namien - Three Banners
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133209
+	
+	3466.1.1 = { birth = yes }
+	3541.1.1 = { death = yes }
+}
+133212 = {
+	name = "Zyjem"						#Count of Namien - Three Banners
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133211
+	
+	3491.1.1 = { birth = yes }
+	3539.1.1 = { death = yes }
+}
+
+133213 = {
+	name = Mashrak
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133212
+	3511.1.1 = { birth = yes }
+	3582.1.1 = { death = yes }
+}
+133214 = {
+	name = Zamon
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133213
+	3532.1.1 = { birth = yes }
+	3598.1.1 = { death = yes }
+}
+133215 = {
+	name = Khomon
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133214
+	3565.1.1 = { birth = yes }
+	3647.1.1 = { death = yes }
+}
+133216 = {
+	name = Yashamon
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133215
+	3586.1.1 = { birth = yes }
+	3652.1.1 = { death = yes }
+}
+133217 = {
+	name = Bazman
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133216
+	3615.1.1 = { birth = yes }
+	3689.1.1 = { death = yes }
+}
+133218 = {
+	name = Galem
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133217
+	3651.1.1 = { birth = yes }
+	3719.1.1 = { death = yes }
+}
+133219 = {
+	name = Mazul
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133218
+	3676.1.1 = { birth = yes }
+	3744.1.1 = { death = yes }
+}
+133220 = {
+	name = Zymon
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133219
+	3710.1.1 = { birth = yes }
+	3782.1.1 = { death = yes }
+}
+133221 = {
+	name = Omon
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133220
+	3742.1.1 = { birth = yes }
+	3819.1.1 = { death = yes }
+}
+133222 = {
+	name = Haled
+	dynasty = 30006
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133221
+	3778.1.1 = { birth = yes }
+	3849.1.1 = { death = yes }
+}
+
+
+
+133709 = {
+	name = Mozaryd
+	dynasty = 30016
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	mother = 133707
+	3506.1.1 = { birth = yes }
+	3578.1.1 = { death = yes }
+}
+133710 = {
+	name = Tasyd
+	dynasty = 30016
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133709
+	3546.1.1 = { birth = yes }
+	3622.1.1 = { death = yes }
+}
+133711 = {
+	name = Kemon
+	dynasty = 30016
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133710
+	3572.1.1 = { birth = yes }
+	3651.1.1 = { death = yes }
+}
+133712 = {
+	name = Yaragir
+	dynasty = 30016
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133711
+	3593.1.1 = { birth = yes }
+	3664.1.1 = { death = yes }
+}
+133713 = {
+	name = Cymon
+	dynasty = 30016
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133712
+	3625.1.1 = { birth = yes }
+	3693.1.1 = { death = yes }
+}
+133714 = {
+	name = Yaragir
+	dynasty = 30016
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133713
+	3655.1.1 = { birth = yes }
+	3721.1.1 = { death = yes }
+}
+133715 = {
+	name = Ghorek
+	dynasty = 30016
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133714
+	3684.1.1 = { birth = yes }
+	3757.1.1 = { death = yes }
+}
+133716 = {
+	name = Jaemia
+	dynasty = 30016
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133715
+	female = yes
+	3718.1.1 = { birth = yes }
+	3786.1.1 = { death = yes }
+}
+133717 = {
+	name = Taralir
+	dynasty = 30016
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	mother = 133716
+	female = yes
+	3747.1.1 = { birth = yes }
+	3820.1.1 = { death = yes }
+}
+133718 = {
+	name = Cashtia
+	dynasty = 30016
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	mother = 133717
+	female = yes
+	3768.1.1 = { birth = yes }
+	3839.1.1 = { death = yes }
+}
+
+#Narashid Dynasty
+
+133750 = {
+	name = Baragyr
+	dynasty = 30077
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	3504.1.1 = { birth = yes }
+	3571.1.1 = { death = yes }
+}
+133751 = {
+	name = Eozvir
+	dynasty = 30077
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133750
+	female = yes
+	3526.1.1 = { birth = yes }
+	3598.1.1 = { death = yes }
+}
+133752 = {
+	name = Hamigir
+	dynasty = 30077
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	mother = 133751
+	3565.1.1 = { birth = yes }
+	3642.1.1 = { death = yes }
+}
+133753 = {
+	name = Etamia
+	dynasty = 30077
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133752
+	female = yes
+	3599.1.1 = { birth = yes }
+	3669.1.1 = { death = yes }
+}
+133754 = {
+	name = Yashamon
+	dynasty = 30077
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	mother = 133753
+	3624.1.1 = { birth = yes }
+	3692.1.1 = { death = yes }
+}
+133755 = {
+	name = Dylir
+	dynasty = 30077
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133754
+	female = yes
+	3662.1.1 = { birth = yes }
+	3734.1.1 = { death = yes }
+}
+133756 = {
+	name = Kaemon
+	dynasty = 30077
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	mother = 133755
+	3701.1.1 = { birth = yes }
+	3774.1.1 = { death = yes }
+}
+133757 = {
+	name = Shaluy
+	dynasty = 30077
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133756
+	3733.1.1 = { birth = yes }
+	3808.1.1 = { death = yes }
+}
+133758 = {
+	name = Anulir
+	dynasty = 30077
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	father = 133757
+	female = yes
+	3755.1.1 = { birth = yes }
+	3825.1.1 = { death = yes }
+}
+133759 = {
+	name = Patamir
+	dynasty = 30077
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	mother = 133758
+	female = yes
+	3795.1.1 = { birth = yes }
+	3873.1.1 = { death = yes }
+}
+133760 = {
+	name = Vaygyr
+	dynasty = 30077
+	culture = quey
+	religion = keptu_religion
+	add_trait = quey
+	mother = 133759
+	3831.1.1 = { birth = yes }
+	3901.1.1 = { death = yes }
+}

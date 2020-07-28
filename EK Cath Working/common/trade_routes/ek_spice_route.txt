@@ -1,0 +1,68 @@
+islands_trade_route = {
+	wealth = 15
+	trade_post_display_trigger = {
+		OR = {
+			province_id = 735 #Esroniet
+			province_id = 736 #Vinquey
+			province_id = 797 #Ijato
+            province_id = 1259 #Rahira
+            province_id = 776 #Indratra
+            province_id = 1009 #Xianyi
+            province_id = 821 #Yichung 
+            province_id = 731 #Yneslea
+			province_id = 444 #Cathnoquey
+			province_id = 424 #Roscrea
+            province_id = 1023 #Brotingaard
+            province_id = 1283 #Olenveld
+		}
+	}
+
+	modifier = {	# How the trade route modifies the provinces it passes
+		castle_tax_modifier = 0.01
+		city_tax_modifier = 0.01
+		temple_tax_modifier = 0.01
+		tribal_tax_modifier = 0.01
+		trade_route_value = 2.00
+		local_movement_speed = 0.025
+		tech_growth_modifier = 0.025
+		icon = 4
+	}
+
+	start = {
+		735 #Esroniet
+	}
+
+	path = {	#Esroniet - Vinquey - Ijato (Zasho) - Rahira (Kamipara)
+		735 736 797 1259
+	}
+	path = { #Rahira - Indratra
+		1259 776
+	}
+	path = { #Rahira - Xianyi - Yichung
+		1259 1009 821
+	}
+    path = {    #Esroniet - Yneslea - Cathnoquey
+        735 731 444
+    }
+    path = {    #Cathnoquey - Telvannis
+        444 77
+    }
+    path = {    #Cathnoquey - Roscrea
+        444 424    
+    }
+    path = {    #Roscrea - Brotingaard
+        424 1023
+    }
+    path = {    #Roscrea - Olenveld 
+        424 1283
+    }
+    path = {    #Olenveld - Hirstaang
+        1283 66
+    }
+    path = {    #Olenveld - Winterhold
+        1283 132
+    }
+    path = {    #Olenveld - Dawnstar
+        1283 66
+    }
+}

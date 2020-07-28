@@ -1,0 +1,16 @@
+# County Title
+title = c_tulla
+
+# Settlements
+max_settlements = 4
+
+b_tulla = temple
+
+# Misc
+culture = quey
+religion = keptu_religion
+terrain = islander_terrain
+
+#
+
+# History
