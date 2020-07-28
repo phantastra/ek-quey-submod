@@ -1,0 +1,78 @@
+134431 = {
+name = "Azmia"						
+	dynasty = 0
+	culture = quey
+	religion = melting_ice
+	add_trait = quey
+	female = yes
+	
+	3329.1.1 = { birth = yes }
+	3390.1.1 = { add_trait = ill }
+	3392.1.1 = { death = yes }
+
+}
+
+350005 = {
+	name = "Jyggalag"
+	dynasty = 550005
+	culture = daedric 
+	religion = daedra_jyggalag
+	add_trait = jyggalag
+	add_trait = diligent
+	add_trait = just
+	add_trait = honest
+	add_trait = stressed
+	add_trait = warrior_4
+	#give_nickname = nick_jyggalag
+	diplomacy = 99
+	martial = 99
+	stewardship = 99
+	intrigue = 99
+	learning = 99
+	health = 100
+	fertility = 0
+	disallow_random_traits = yes
+	1.1.1 = { birth = yes }
+	57.1.1 = { add_trait = disabler immortal_age = 56 }
+	5000.1.1 = { death = yes }
+}
+
+133803 = {
+	name = "Vishor"							#Count of Esroniet - Interregnum
+	dynasty = 30072
+	culture = quey
+	religion = melting_ice
+	add_trait = quey
+	father = 133801
+	
+	3337.1.1 = { birth = yes }
+	3394.1.1 = { death = yes }
+}
+133804 = {
+	name = "Dozgyr"
+	dynasty = 30072
+	culture = quey
+	religion = melting_ice
+	add_trait = quey
+	father = 133803
+	
+	3361.1.1 = { birth = yes }
+	3382.1.1 = {
+		death = {
+			death_reason = death_murder_unknown
+			killer = 134403
+		}
+	}
+}
+133805 = {
+	name = "Ozraf"							#Count of Esroniet
+	dynasty = 30072
+	culture = quey
+	religion = melting_ice
+	add_trait = quey
+	father = 133803
+	
+	3363.1.1 = { birth = yes }
+	3384.1.1 = { add_spouse = 134406 }
+	3426.1.1 = { death = yes }
+}
