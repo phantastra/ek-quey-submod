@@ -19,7 +19,7 @@ c_necrom = {
 
 	holy_site = almsivi
 	holy_site = reclamationist
-    holy_site = island_velothi				
+    	holy_site = island_velothi				
 				
 	b_necrom = {
 
@@ -36,7 +36,7 @@ c_uradas = {
 	color={ 125 110 50 }
 	color2={ 255 255 255 }
 
-    holy_site = island_velothi
+    	holy_site = island_velothi
 
 	b_uradas = {}
 	b_domisan = {}
@@ -50,7 +50,7 @@ c_darvon = {
 	color={ 140 100 40 }
 	color2={ 255 255 255 }
 	
-    holy_site = island_velothi
+    	holy_site = island_velothi
 
 	b_darvon = {}
 	b_shad_astula = {}
@@ -66,7 +66,7 @@ c_velothis = {
 
 	holy_site = almsivi
 	holy_site = reclamationist
-    holy_site = island_velothi
+    	holy_site = island_velothi
 				
 	b_velothis = {}
 	b_iliath = {}
@@ -80,7 +80,7 @@ c_morthal = {
 	color={ 90 180 230 }
 	color2={ 255 255 255 }
 
-    holy_site = keptu_religion
+    	holy_site = keptu_religion
 				
 	b_morthal = {}
 	b_kjenstag = {}
@@ -94,9 +94,9 @@ c_dragongate = {
 	color={ 173 0 94 }
 	color2={ 255 255 255 }
 
-    quey = "Skyreach"
+    	quey = "Skyreach"
 
-    holy_site = keptu_religion
+    	holy_site = keptu_religion
 	
 	b_dragongate = {
         quey = "Skyreach"
@@ -116,9 +116,9 @@ c_haran = {
 	color={ 69 111 203 }
 	color2={ 255 255 255 }
 	
-    quey = "Bloodroot"
+    	quey = "Bloodroot"
 
-    holy_site = keptu_religion
+    	holy_site = keptu_religion
 
 	b_haran = {}
 	b_sharrukim = {}
@@ -135,7 +135,7 @@ c_falkreath = {
 	orsimer = "Falcrenth"
 	reachmen = "Falcrenth"
 
-    holy_site = keptu_religion
+    	holy_site = keptu_religion
 	
 	b_falkreath = {
 		orsimer = "Falcrenth"
