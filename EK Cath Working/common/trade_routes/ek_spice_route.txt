@@ -5,15 +5,15 @@ islands_trade_route = {
 			province_id = 735 #Esroniet
 			province_id = 736 #Vinquey
 			province_id = 797 #Ijato
-            province_id = 1259 #Rahira
-            province_id = 776 #Indratra
-            province_id = 1009 #Xianyi
-            province_id = 821 #Yichung 
-            province_id = 731 #Yneslea
+            		province_id = 1259 #Rahira
+            		province_id = 776 #Indratra
+            		province_id = 1009 #Xianyi
+            		province_id = 821 #Yichung 
+            		province_id = 731 #Yneslea
 			province_id = 444 #Cathnoquey
 			province_id = 424 #Roscrea
-            province_id = 1023 #Brotingaard
-            province_id = 1283 #Olenveld
+            		province_id = 1023 #Brotingaard
+            		province_id = 1283 #Olenveld
 		}
 	}
 
